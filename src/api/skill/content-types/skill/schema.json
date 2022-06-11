@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "frontendkill": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "backendskill": {
+      "type": "string"
+    }
+  }
+}
